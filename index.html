@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APEX</title>
+    <link rel="stylesheet" href="inicio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="hero-wrapper">
+      <header class="main-header">
+        <div class="logo">
+          <img src="imagenes/LOGO 1 png.png" alt="APEX">
+        </div>
+        <button class="menu-toggle">
+            <span></span>
+            <span></span>
+        </button>
+        <!-- navbar -->
+        <nav class="nav">
+            <a href="#rendimiento">Rendimiento</a>
+            <a href="#">Programas</a>
+            <a href="#">Rendimiento</a>
+            <a href="#">Contacto</a>
+        </nav>
+      </header>
+
+
+      <!-- HERO -->
+
+      <header class="hero">
+        <div class="hero-content">
+          <span class="subtitle">
+            / ACADEMIA DE ALTO RENDIMIENTO PARA SIMRACERS /
+          </span>
+
+          <h1>Más que velocidad, <span class="destacado-hero"> <br> es método </br> </span> </h1>
+
+          <p class="desktop">
+            APEX es una academia de entrenamiento profesional basado en datos, telemetría y análisis competitivo para quienes buscan subir de nivel.
+          </p>
+
+          <p class="hero-description mobile">
+            Entrenamiento profesional para simracers basado en datos y telemetría.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#" class="btn btn-primary"> Comenzar entrenamiento </a>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <!-- Divider Hero → Gráfico -->
+    <div class="wave-divider">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <path
+          id="snakePath"
+          d="M0,60 C240,120 480,0 720,60 C960,120 1200,0 1440,60"
+          fill="none"
+          stroke="#00ff88"
+          stroke-width="90"
+        />
+      </svg>
+
+            <section class="method-transition">
+
+        <div class="floating-panel">
+
+          <div class="word-row word-1">
+            <span>telemetría</span>
+            <span>telemetría</span>
+            <span class="active">/ telemetría /</span>
+            <span>telemetría</span>
+            <span>telemetría</span>
+          </div>
+
+          <div class="word-row word-2">
+            <span>análisis</span>
+            <span>análisis</span>
+            <span class="active">/ análisis /</span>
+            <span>análisis</span>
+            <span>análisis</span>
+          </div>
+
+          <div class="word-row word-3">
+            <span>evolución</span>
+            <span>evolución</span>
+            <span class="active">/ evolución /</span>
+            <span>evolución</span>
+            <span>evolución</span>
+          </div>
+
+        </div>
+
+      </section>
+    </div>
+    <!-- DRIVER PERFORMANCE -->
+    <div class="performance-stage">
+
+      <section id="rendimiento" class="driver-performance">
+        <div class="performance-header">
+          <h2>Así podría crecer tu rendimiento</h2>
+          <p>
+            Con entrenamiento, análisis de telemetría y trabajo constante, este podría ser tu progreso dentro de APEX.
+          </p>
+        </div>
+
+        <div class="performance-card">
+          <div class="performance-badge">
+            <span id="irating">+125</span> iRating
+
+            <span class="info-tooltip">
+              i
+              <span class="tooltip-text">
+                iRating: sistema de puntuación de iRacing que mide tu nivel competitivo frente a otros pilotos.
+              </span>
+            </span>
+          </div>
+
+          <div class="performance-stats">
+
+            <div>
+              <span id="lapTime">-1.8s</span>
+              <small>por vuelta</small>
+            </div>
+
+            <div>
+              <span id="consistency">+24%</span>
+              <small>consistencia</small>
+            </div>
+
+          </div>
+
+          <div class="graph-container">
+
+            <svg
+              class="graph-svg"
+              viewBox="0 0 1000 300"
+              preserveAspectRatio="none"
+            >
+
+              <line x1="20" y1="300" x2="20" y2="224"
+                stroke="rgba(239,248,255,.15)" stroke-width="1"/>
+
+              <line x1="210" y1="300" x2="210" y2="211"
+                stroke="rgba(239,248,255,.15)" stroke-width="1"/>
+
+              <line x1="400" y1="300" x2="400" y2="188"
+                stroke="rgba(239,248,255,.15)" stroke-width="1"/>
+
+              <line x1="591" y1="300" x2="591" y2="157"
+                stroke="rgba(239,248,255,.15)" stroke-width="1"/>
+
+              <line x1="784" y1="300" x2="784" y2="119"
+                stroke="rgba(239,248,255,.15)" stroke-width="1"/>
+
+              <line x1="975" y1="300" x2="975" y2="81"
+                stroke="rgba(239,248,255,.15)" stroke-width="1"/>
+
+              <path
+                id="performancePath"
+                d="M0,220
+                C250,210 450,180 650,140
+                C800,110 900,90 1000,70"
+                fill="none"
+                stroke="#eff8ff"
+                stroke-opacity="0.35"
+                stroke-width="4"
+                stroke-linecap="round"
+              />
+            </svg>
+
+            <div class="highlight">
+              <div class="highlight-dot"></div>
+            </div>
+
+          </div>
+
+          <div class="graph-labels">
+            <span>Semana 1</span>
+            <span>Semana 2</span>
+            <span>Semana 3</span>
+            <span>Semana 4</span>
+            <span>Semana 5</span>
+            <span>Semana 6</span>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+    <!-- SERVICES -->
+    <section class="services">
+      <h2>En APEX entrenamos con evidencia</h2>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <span class="number">01</span>
+          <h3>Telemetría avanzada</h3>
+          <p>
+           Identificamos oportunidades de mejora y áreas clave para seguir evolucionando.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <span class="number">02</span>
+          <h3>Plan de desarrollo</h3>
+          <p>
+           Convertimos cada hallazgo en ejercicios concretos para la próxima sesión.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <span class="number">03</span>
+          <h3>Progreso medible</h3>
+          <p>Seguimos tu evolución con métricas objetivas para validar cada mejora.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS + ABOUT -->
+    <section class="about-section">
+      <div class="about-content">
+        <span class="section-tag"> EL MÉTODO APEX </span>
+
+        <h2>La diferencia está en los datos.</h2>
+
+        <p>
+          La mayoría de los pilotos entrena repitiendo vueltas. Nosotros
+          entrenamos entendiendo por qué ocurre cada error.
+        </p>
+
+        <p>
+          Nuestro sistema combina análisis de telemetría, evaluación técnica y
+          seguimiento continuo para transformar información en rendimiento real.
+        </p>
+      </div>
+    </section>
+
+    <!-- USER GUIDE -->
+    <section class="guide">
+      <div class="guide-left">
+        <h2>CURSO INTENSIVO</h2>
+        <p>Formación definitiva en 8 semanas</p>
+      </div>
+
+      <div class="guide-right">
+        <div class="step">
+          <h3>Bloque 1</h3>
+          <p>Search - Use filters to find properties that match your needs.</p>
+        </div>
+
+        <div class="step">
+          <h3>Bloque 2</h3>
+          <p>Search - Use filters to find properties that match your needs.</p>
+        </div>
+
+        <div class="step">
+          <h3>Bloque 3</h3>
+          <p>Search - Use filters to find properties that match your needs.</p>
+        </div>
+
+        <div class="step">
+          <h3>Bloque 4</h3>
+          <p>Search - Use filters to find properties that match your needs.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOG -->
+    <section class="blog">
+      <div class="section-header">
+        <h2>Blog Section</h2>
+
+        <div class="slider-controls">
+          <button>&lt;</button>
+          <button>&gt;</button>
+        </div>
+      </div>
+
+      <div class="blog-grid">
+        <article class="card">
+          <img src="https://via.placeholder.com/300x180" alt="" />
+          <div class="card-content">
+            <h3>Modern Residential Home</h3>
+            <p>Premium location and luxury amenities.</p>
+            <span class="price">$123,500</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://via.placeholder.com/300x180" alt="" />
+          <div class="card-content">
+            <h3>Luxury Apartment</h3>
+            <p>Comfortable living with city views.</p>
+            <span class="price">$123,500</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://via.placeholder.com/300x180" alt="" />
+          <div class="card-content">
+            <h3>Family Residence</h3>
+            <p>Designed for modern families.</p>
+            <span class="price">$123,500</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://via.placeholder.com/300x180" alt="" />
+          <div class="card-content">
+            <h3>Urban Condo</h3>
+            <p>Stylish and efficient spaces.</p>
+            <span class="price">$123,500</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CTA -->
+
+    <section class="cta-section">
+      <h2>Tu próxima décima empieza acá.</h2>
+
+      <p>
+        Sumate a APEX y entrená con una metodología diseñada para pilotos que
+        buscan competir al máximo nivel.
+      </p>
+
+      <a href="#" class="btn btn-primary"> Inscribirme ahora </a>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="main-footer">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h2>APEX SIMRACING</h2>
+          <p>
+            Formación profesional de pilotos virtuales. Telemetría, técnica y
+            mentalidad de competición.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h3>Plataforma</h3>
+          <a href="#">Cursos</a>
+          <a href="#">Pilotos</a>
+          <a href="#">Ranking</a>
+          <a href="#">Stats</a>
+        </div>
+
+        <div class="footer-links">
+          <h3>Comunidad</h3>
+          <a href="#">Discord</a>
+          <a href="#">Eventos</a>
+          <a href="#">Ligas</a>
+          <a href="#">Soporte</a>
+        </div>
+
+        <div class="footer-links">
+          <h3>Contacto</h3>
+          <a href="#">Email</a>
+          <a href="#">Instagram</a>
+          <a href="#">YouTube</a>
+          <a href="#">Twitter</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 APEX SIMRACING. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="prueba.js"></script>
+
+  </body>
+</html>
